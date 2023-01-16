@@ -35,6 +35,9 @@
               <li class="nav-item">
                   <a class="nav-link" href="#contact">Contact</a>
               </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="register-form.html">Register</a>
+              </li>
           </ul>
           
       </div>
@@ -162,10 +165,10 @@
               <div class="card portfolioContent">
                   <img class="card-img-top" src="images/portfolioImage3.jpg" alt="Card image" style="width:100%">
                   <div class="card-body">
-                      <h4 class="card-title">Calculators</h4>
+                      <h4 class="card-title">Calculators (paid only)</h4>
                       <p class="card-text">Calculate your BMI, Daily calorie need etc.  </p>
                       <div class="text-center">
-                          <a href="#" class="btn btn-success">Link</a>
+                          <a href="Index3.php" class="btn btn-success">Link</a>
                       </div>
                   </div>
               </div>
