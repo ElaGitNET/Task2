@@ -47,15 +47,15 @@
 
         #Stores an error message if password is invalid, or store its value in a
         #variable
-        if(!empty($_POST['pass1']))
+        if(!empty($_POST['pass']))
         {
-            if($_POST['pass1'] != $_POST['pass2'])
+            if($_POST['pass'] != $_POST['pass'])
             {
                 $errors[] = 'The passwords do not match';
             }
             else
             {
-                $p = mysqli_real_escape_string($link, trim($_POST['pass1']));
+                $p = mysqli_real_escape_string($link, trim($_POST['pass']));
             }
         }
         else
@@ -80,7 +80,7 @@
         #confirmation page, close database connection, include html docs and close the script
         if(empty($errors))
         {
-            $q = "INSERT INTO users (first_name, last_name, email, pass, reg_date) VALUES('$fn', '$ln', '$e', SHA1('$p'), NOW())";
+            $q = "INSERT INTO users (first_name, last_name, email, pass, Premium) VALUES('$fn', '$ln', '$e', SHA1('$p'), NOW())";
             $r = mysqli_query($link, $q);
 
             echo'<h1>Congratulations</h1>

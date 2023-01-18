@@ -19,9 +19,9 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="about.php">About</a>
-                    <a class="nav-link" href="TLevelShop/index2.html">Services</a>
-                    <a class="nav-link" href="login-form.html">Advice</a>
-                    <a class="nav-link" href="register-form.html">Contact</a>
+                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#">Advice</a>
+                    <a class="nav-link" href="#">Contact</a>
                 </div>
                 </div>
             </div>
