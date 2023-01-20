@@ -49,11 +49,7 @@
         #variable
         if(!empty($_POST['pass']))
         {
-            if($_POST['pass'] != $_POST['pass'])
-            {
-                $errors[] = 'The passwords do not match';
-            }
-            else
+            if($_POST['pass'] == $_POST['pass'])
             {
                 $p = mysqli_real_escape_string($link, trim($_POST['pass']));
             }

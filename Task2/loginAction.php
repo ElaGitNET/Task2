@@ -3,7 +3,7 @@
 if($_SERVER['REQUEST_METHOD']=='POST')
 {
     #Opens the database connection
-    require_once "../config_db_user.php";
+    require_once "config.php";
     #Create a connection to ensure login tools are available
     require_once "login_tools.php";
 
@@ -20,7 +20,7 @@ if($_SERVER['REQUEST_METHOD']=='POST')
         $_SESSION['first_name'] = $data['first_name'];
         $_SESSION['last_name'] = $data['last_name'];
 
-        load('home.php');
+        load('Index.php');
     }
     else
     {

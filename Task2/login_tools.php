@@ -1,7 +1,7 @@
 <?php
 
 #Function block to insert a statement to load a page specified as its argument
-function load($page = 'login-form.html')
+function load($page = 'login.php')
 {
     #A URL string of protocol, current domain and directory
     $url = 'http://'.$_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF']);

@@ -1,3 +1,7 @@
+/* All texts are relative so if they zoom in with the browser it will resize for them. Same if they zoom out. This is for accessibility purposes for those with bad eyes. */ 
+
+
+
 /* hero background image */
 .bgimage {
     height:100vh;

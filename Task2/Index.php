@@ -43,6 +43,7 @@
       </div>
   </div>
 </nav>
+
  <!-- main banner -->
  <section class="bgimage" id="home">
   <div class="container-fluid">
@@ -214,10 +215,13 @@
  <!-- footer section-->
  <footer id="footer">
   <div class="container-fluid">
-      <!-- social media icons -->
+      <!-- social media icons THESE ARE SOCIAL FEATURES -->
       <div class="social-icons mt-4">
           <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
           <a href="https://github.com/ElaNetRemastered" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
       </div>
   </div>
 </footer>
